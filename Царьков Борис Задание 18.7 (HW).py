@@ -155,6 +155,8 @@ while True:
                         del students_marks[student_name][student_discipline]
                     else:
                         print('Нет такой дисциплины')
+                else:
+                    print('Студента с таким именем в списке нет')
             if command == 6:
                 student_name = input('Введите имя студента')
                 if student_name in students:
