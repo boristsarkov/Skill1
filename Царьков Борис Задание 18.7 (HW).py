@@ -178,6 +178,10 @@ while True:
                 mark_count = len(students_marks[student_name][discipline])
                 print(f'Средний бал студента {student_name} по дисциплине "{find_discipline[ind_discipline]}" - '
                       f'{mark_sum // mark_count}: ')
+            else:
+                print('В списке нет такой дисциплины')
+        else:
+            print('Нет ученика с таким именем')
     elif command == 7:
         print('7. Выход из программы')
         break
