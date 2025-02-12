@@ -163,6 +163,8 @@ while True:
                         del students_marks[student_name][student_discipline]
                     else:
                         print('Нет такой дисциплины')
+                else:
+                    print('Студента с таким именем в списке нет')
             elif command == 7:
                 print('7. Вернуться назад')
                 break
